@@ -19,4 +19,12 @@
     <!--This tag allows for mapping the DispatcherServlet to "/" (all extensions etc)-->
     <!--<mvc:default-servlet-handler/>-->
 
+
+    <!--<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
+        <!--<property name="persistenceUnitName" value="manager1"/>-->
+        <!--<property name="loadTimeWeaver">-->
+            <!--<bean class="org.springframework.instrument.classloading.SimpleLoadTimeWeaver"/>-->
+        <!--</property>-->
+    <!--</bean>-->
+
 </beans>
