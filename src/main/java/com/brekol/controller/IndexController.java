@@ -23,7 +23,7 @@ public class IndexController {
     @RequestMapping(method = RequestMethod.GET)
     public String init(){
 
-        System.out.println("AAaA");
+        System.out.println("AQWEQWEQWE");
         EntityManagerFactory x = EMFService.get();
         EntityManager entityManager = x.createEntityManager();
         entityManager.getTransaction().begin();
