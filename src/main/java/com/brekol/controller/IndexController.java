@@ -13,7 +13,6 @@ import javax.persistence.EntityManagerFactory;
  * Created with IntelliJ IDEA.
  * User: Breku
  * Date: 10.03.13
- * Time: 21:56
  */
 @Controller
 @RequestMapping(value = {"/","index","home"})
