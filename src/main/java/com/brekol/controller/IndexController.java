@@ -25,7 +25,7 @@ public class IndexController {
     @RequestMapping(method = RequestMethod.GET)
     public String init(){
 
-        System.out.println("AAA");
+        System.out.println("AAaA");
         EntityManagerFactory x = EMFService.get();
         EntityManager entityManager = x.createEntityManager();
         entityManager.getTransaction().begin();
