@@ -13,8 +13,6 @@ import javax.persistence.EntityManagerFactory;
  * Created with IntelliJ IDEA.
  * User: Breku
  * Date: 10.03.13
- * Time: 21:56
- * To change this template use File | Settings | File Templates.
  */
 @Controller
 @RequestMapping(value = {"/","index","home"})
